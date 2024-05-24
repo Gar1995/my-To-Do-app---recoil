@@ -31,9 +31,10 @@
   box-shadow: 4px 2px 4px 2px #8c888c;;
 }
 .checked{
-  color: rgb(85, 68, 68);
+  color: rgb(1, 1, 1);
   font-size: 18px;
 }
+
 .unchecked {
   font-weight: 400;
   font-size: 24px;

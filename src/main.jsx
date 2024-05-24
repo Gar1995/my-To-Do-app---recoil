@@ -20,7 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               height: "400px",
             }}
           >
-            <h1 style={{letterSpacing:'6px', fontSize:'40px'}}>Loading ...</h1>
+            <h1 style={{letterSpacing:'6px', fontSize:'20px'}}>Loading ...</h1>
             <PropagateLoader color="#12a0c0de" />
           </div>
         }

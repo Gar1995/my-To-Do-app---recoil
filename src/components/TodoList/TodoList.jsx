@@ -24,7 +24,7 @@ function TodoList() {
       totalUncompletedNum != 0
     ) {
       setHeading("More than half todos are done... 😏👍");
-    } else if (totalCompleted === totalTodos && totalUncompletedNum === 0) {
+    } else if (totalCompleted === totalTodos && totalCompleted > 0) {
       setHeading("All todos are done, excellent... 👏🎉");
     }
   }, [totalCompleted, totalTodos, totalUncompletedNum]);
