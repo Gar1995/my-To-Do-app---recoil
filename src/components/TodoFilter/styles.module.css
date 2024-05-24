@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 100%;
+  padding: 8px;
+  padding: 4px;
+  background-color: rgba(240, 248, 255, 0.697);
+  border-radius: 8px 8px 0;
+}
+
+select {
+  margin-left: 6px;
+  padding: 8px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+select:hover {
+  box-shadow: 1px 1px 1px 1px rgb(165, 165, 165);
+}
+
+select > option {
+  font-size: 16px;
+  font-weight: 400;
+}

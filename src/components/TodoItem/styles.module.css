@@ -1,0 +1,111 @@
+.task-row-uncompleted {
+  width: 100%;
+  font-size: 18px;
+  position: relative;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #12a0c0de;
+  color: rgb(248, 248, 248);
+}
+.task-row-completed {
+  font-size: 16px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  padding: 5px;
+  border-radius: 10px;
+  letter-spacing: 1.1px;
+  background-color: #4e9bad8f;
+  color: #4CAF50;
+  transition: 0.5s linear;
+}
+.task-row-uncompleted:hover {
+  transform: scale(1.01);
+  box-shadow: 4px 2px 4px 2px #8c888c;;
+}
+.checked{
+  color: rgb(85, 68, 68);
+  font-size: 18px;
+}
+.unchecked {
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.unchecked::before {
+  content: "";
+  width: 0;
+}
+
+.checked::before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 0.8rem;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(221, 7, 7);
+  transition: 0.2s linear;
+}
+
+div.task svg {
+  height: 20px;
+  margin-right: 4px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.icon-delete {
+  margin-right: 5px;
+  color: #3b373b;
+}
+
+.icon-delete:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+
+.todo-row-text:hover {
+  cursor: pointer;
+}
+
+.form-edit {
+  display: flex;
+  margin: 0;
+  border: none;
+}
+
+.form-edit input {
+  font-size: 26px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 4px;
+  border: none;
+}
+
+.form-edit input:focus {
+  padding: 6px;
+  border-radius: 4px;
+}
