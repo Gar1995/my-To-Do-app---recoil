@@ -9,7 +9,7 @@ const App = () => {
   const [showDashboard, setShowDashboard] = useRecoilState(dashboardState);
 
   return (
-    <>
+    <div className="container">
       {showDashboard && <Statistics />}
       <div className="todo-app">
         <div className="showDashboard-btn-container">
@@ -21,7 +21,7 @@ const App = () => {
         </div>
         <TodoList />
       </div>
-    </>
+    </div>
   );
 };
 

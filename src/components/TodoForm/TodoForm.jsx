@@ -36,6 +36,7 @@ function TodoForm() {
 
   return (
     <>
+      <Toaster />
       <form onSubmit={(e) => handleSubmit(e)}>
         <FcPlus
           size={40}
@@ -51,7 +52,6 @@ function TodoForm() {
           ref={inputRef}
         />
       </form>
-      <Toaster />
     </>
   );
 }

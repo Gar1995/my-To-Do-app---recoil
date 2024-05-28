@@ -2,7 +2,7 @@
   width: 100%;
   font-size: 18px;
   position: relative;
-  width: 400px;
+  max-width: 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;

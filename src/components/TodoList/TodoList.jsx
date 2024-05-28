@@ -35,9 +35,7 @@ function TodoList() {
       <div className={styles.dashboard}>
         <TodoForm />
       </div>
-      {filteredTodos.map((todoItem) => (
-        <TodoItem todoItem={todoItem} key={todoItem.id} />
-      ))}
+      {filteredTodos.map((todoItem) => (<TodoItem todoItem={todoItem} key={todoItem.id} />))}
     </>
   );
 }
