@@ -8,20 +8,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background: #f1f2b5;
-  background: -webkit-linear-gradient(to right, #135058, #f1f2b5);
   background: linear-gradient(to right, #135058, #f1f2b5);
-}
-
-.todo-wrapper {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3rem;
 }
 
 .showDashboard-btn-container {
@@ -47,10 +37,10 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  width: 480px;
-  min-height: 60vh;
+  width: 100%;
+  max-width: 50vw;
+  height: 60vh;
   text-align: center;
-  margin-top: 4px;
   border: 1px solid rgb(10, 134, 162);
   border-radius: 6px;
   padding-bottom: 32px;
@@ -58,6 +48,7 @@ body {
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h4 {

@@ -13,7 +13,7 @@ function TodoList() {
 
   useEffect(() => {
     if (totalCompleted === 0 && totalTodos > 0) {
-      setHeading("At least 1 todo 😏");
+      setHeading("No todos completed yet 🤷‍♂️");
     }
     if (totalCompleted === 1) {
       setHeading("Good start, keep it doing... 💪");
