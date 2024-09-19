@@ -1,13 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+
+    <!--In the site <head>, add the loader code once-->
+    <script>
+      window.yaContextCb = window.yaContextCb || [];
+    </script>
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
+
+    <script src="https://yandex.ru/ads/system/context.js" async></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!--AdFox START-->
+    <!--yandex_personamarketingagency1-->
+    <!--Placement: https://todo-recoil.netlify.app/ / https://todo-recoil.netlify.app/ / https://todo-recoil.netlify.app/-->
+    <!--Category: <not defined>-->
+    <!--Banner type: Top Line-->
+    <div id="adfox_1726753320715496"></div>
+    <script>
+      window.yaContextCb.push(() => {
+        Ya.adfoxCode.create({
+          ownerId: 3731274,
+          containerId: "adfox_1726753320715496",
+          params: {
+            p1: "decii",
+            p2: "iupp",
+          },
+        });
+      });
+    </script>
   </body>
 </html>
