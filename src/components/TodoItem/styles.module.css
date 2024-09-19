@@ -99,7 +99,7 @@ div.task svg {
 }
 
 .form-edit input {
-  font-size: 26px;
+  /* font-size: 26px; */
   text-align: center;
   padding: 2px;
   border-radius: 4px;
@@ -109,4 +109,7 @@ div.task svg {
 .form-edit input:focus {
   padding: 6px;
   border-radius: 4px;
+}
+span {
+  max-width: 300px  ;
 }
